@@ -1,0 +1,92 @@
+
+# ==========================================
+# Compilación .NET
+# ==========================================
+[Bb]in/
+[Oo]bj/
+[Dd]ebug/
+[Rr]elease/
+x64/
+x86/
+[Aa][Rr][Mm]/
+[Aa][Rr][Mm]64/
+out/
+artifacts/
+publish/
+
+# ==========================================
+# Visual Studio
+# ==========================================
+.vs/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+*.rsuser
+*.sln.iml
+
+# ==========================================
+# IDE adicionales
+# ==========================================
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# ==========================================
+# NuGet
+# ==========================================
+packages/
+*.nupkg
+*.snupkg
+.nuget/
+
+# ==========================================
+# Configuración local y secretos
+# ==========================================
+.env
+.env.*
+!.env.example
+appsettings.Development.json
+appsettings.*.Local.json
+secrets.json
+*.pfx
+*.p12
+*.key
+*.pem
+
+# ==========================================
+# Bases de datos y respaldos
+# ==========================================
+*.mdf
+*.ldf
+*.ndf
+*.bak
+*.trn
+
+# ==========================================
+# Logs y archivos temporales
+# ==========================================
+*.log
+*.tmp
+*.temp
+*.cache
+[Tt]est[Rr]esult*/
+[Bb]uild[Ll]og.*
+coverage/
+coverage.*
+*.coverage
+*.coveragexml
+
+# ==========================================
+# Sistema operativo
+# ==========================================
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ==========================================
+# Archivos de publicación y despliegue
+# ==========================================
+*.publishsettings
+*.pubxml.user
